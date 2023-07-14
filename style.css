@@ -4,3 +4,130 @@
     box-sizing: border-box;
 }
 
+:root {
+    --gray-01:#f8fafc;
+    --gray-02:#e2e8f0;
+    --gray-03:#94a3b8;   
+    --gray-04:#334155;
+    --gray-05:#1e293b;
+    --gray-06:#0f172a;
+}
+
+body {
+    border: 1px solid black;
+    background: url(./assets/bg.png) no-repeat center/cover;
+    font-family: IBM Plex Sans;
+
+
+}
+
+#container {
+    display: flex;
+    padding: 60px;
+    margin: 67px 112px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border-radius: 32px;
+    border: 1px solid var(--gray-04);
+    background: rgba(2, 6, 23, 0.80);
+}
+
+/*Header*/
+#content {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#content h1 {
+    color: var(--gray-01);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/*Lista para buscas*/
+#card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+  }
+
+li {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 16px;
+    background: var(--gray-06);
+}
+
+#card-list p {
+    color: var(--gray-02);
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#card-list img {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-05);
+}
+
+#divider {
+    width: 1096px;
+    height: 1px;
+    background: var(--gray-04);
+}
+
+#search-bar {
+    display: flex;
+    padding-top: 40px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+
+}
+
+input {
+    display: flex;
+padding: 16px;
+align-items: center;
+gap: 16px;
+flex: 1 0 0;
+border-radius: 16px;
+border: 1px solid var(--gray-04);
+background: var(--gray-06);
+}
+
+#search-bar img {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-05);
+    background: var(--gray-06);
+}
