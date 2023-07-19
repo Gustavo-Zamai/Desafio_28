@@ -58,7 +58,18 @@ h1 {
     font-weight: 600;
 }
 
+.ia-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 
+}
+
+.tools {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+}
 
 
 
