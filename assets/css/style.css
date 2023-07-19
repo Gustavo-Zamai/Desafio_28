@@ -44,6 +44,10 @@ main {
     background: rgba(2,6,23,.8);
 }
 
+header {
+    margin-bottom: -16px;
+}
+
 header div img {
     border-radius: 16px;
     padding: 12px;
@@ -68,10 +72,93 @@ h1 {
 .tools {
     display: flex;
     padding: 16px;
+    align-items: center;
     justify-content: space-between;
+    height: 96px;
+    width: 608px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-04);
+    background: var(--gray-06);
+}
+
+.tools div {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.icons {
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-05);
+    background: var(--gray-06);
+}
+
+i {
+    font-size: 32px;
+    color: var(--gray-03);
+}
+
+.tolls div p {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--gray-02);
+}
+
+.arrow {
+    padding: 16px;
+}
+
+hr {
+    width: 1096px;
+    height: 1px;
+    background: var(--gray-03);
+}
+
+.prompt {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 100%;
+}
+
+.prompt div:first-child {
+    width: 100%;
+}
+
+.prompt>div {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-04);
+    background: var(--gray-06);
 }
 
 
+button, 
+input {
+    background: transparent;
+}
+
+input,
+input::placeholder {
+    width: 100%;
+    color: var(--gray-02);
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+
+}
+
+.ph ph-paper-plane-right:before {
+    color: var(--gray-01);
+}
 
 
-
+.tools,
+.prompt button,
+.ph-plus-circle {
+    cursor: pointer;
+}
