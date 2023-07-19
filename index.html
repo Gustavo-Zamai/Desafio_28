@@ -6,10 +6,10 @@
     <meta name="description" content="Tela inicial de uma plataforma de IA" />
     <meta name="author" content="Gustavo Zamai" />
     <title>Desafio 28 - Rocketseat</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="shortcut icon"
-      href="./assets/favicon-ia.png"
+      href="assets/images/favicon-ia.png"
       type="image/x-icon"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,46 +18,83 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
   <body>
-    <div id="container">
-      <div id="content">
-        <img
-          src="./assets/MagicWand.svg"
-          alt="Varinha mágica, usada como avatar da página"
-        />
-        <h1>Experimente o poder da Inteligência Artificial</h1>
+    <main>
+      <div class="container">
+        <header>
+          <div>
+            <img src="assets/images/MagicWand.svg" alt="Varinha mágica">
+
+          </div>
+        </header>
+        <section>
+          <h1>Experimente o poder da Inteligência Artificial</h1>
+        </section>
+
+          <section class="ia-tools">
+            <div class="tools">
+              <div>
+                <div class="icons">
+                  <i class="ph ph-code"></i>
+                </div>
+                <div>
+                  <p>Gerador de códigos</p>
+                </div>
+              </div>
+
+              <div class="arrow">
+                <i class="ph ph-arrow-right"></i>
+              </div>
+
+              <div>
+                <div class="icons">
+                  <i class="ph ph-image-square"></i>
+                </div>
+                <div>
+                  <p>Edição de fotos</p>
+                </div>
+              </div>
+
+              <div class="arrow">
+                <i class="ph ph-arrow-right"></i>
+              </div>
+
+
+              <div>
+                <div class="icons">
+                  <i class="ph ph-play-circle"></i>
+                </div>
+                <div>
+                  <p>Geração de vídeos</p>
+                </div>
+              </div>
+
+              <div class="arrow">
+                <i class="ph ph-arrow-right"></i>
+              </div>
+
+
+              <div>
+                <div class="icons">
+                  <i class="ph ph-music-notes-simple"></i>
+                </div>
+                <div>
+                  <p>Criador de áudios e músicas</p>
+                </div>
+              </div>
+
+              <div class="arrow">
+                <i class="ph ph-arrow-right"></i>
+              </div>
+
+            </div>
+          </section>
+
+
       </div>
-      <div id="card-list">
-        <ul>
-          <li>
-            <a><img src="./assets/Code.svg" alt="" ></a>
-            <p>Gerador de códigos</p>
-            <a><img src="./assets/ArrowRight.svg" alt=""></a>
-          </li>
-          <li>
-            <a><img src="./assets/ImageSquare.svg" alt="" ></a>
-            <p>Edição de foto</p>
-            <a><img src="./assets/ArrowRight.svg" alt=""></a>
-          </li>
-          <li>
-            <a><img src="./assets/PlayCircle.svg" alt="" ></a>
-            <p>Geração de vídeos</p>
-            <a><img src="./assets/ArrowRight.svg" alt=""></a>
-          </li>
-          <li>
-            <a><img src="./assets/MusicNotesSimple.svg" alt="" ></a>
-            <p>Criador de áudios e musicas</p>
-            <a><img src="./assets/ArrowRight.svg" alt=""></a>
-          </li>
-        </ul>
-      </div>
-      <div id="divider">
-      </div>
-      <div id="search-bar">
-        <input type="text" placeholder="      Envie uma mensagem ou digite “/” para exibir os comandos ">
-        <a href=""><img src="./assets/PaperPlaneRight.svg" alt=""></a>
-      </div>
-    </div>
+    </main>
   </body>
 </html>
