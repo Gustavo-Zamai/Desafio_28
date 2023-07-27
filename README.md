@@ -1,4 +1,4 @@
-<h1 align="center"> Desafio 28 - Rocketseat </h1>
+<h1 align="center"> Desafio 28 - IA Web Page </h1>
 
 <p align="center">
 Desafio proporcionado pela Rocketseat, com o intuito de desenvolver uma tela inicial de uma plataforma de Inteligência Artificial. <br/>
